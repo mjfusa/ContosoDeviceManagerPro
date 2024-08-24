@@ -1,10 +1,16 @@
-How to troubleshoot app installation or update issues on DeviceManagerPro-managed devices
+<title>
+---
+title: KB101: How to troubleshoot app installation or update issues on DeviceManagerPro-managed devices
+---
+</title>
 
-# Overview
+# KB101: How to troubleshoot app installation or update issues on DeviceManagerPro-managed devices
+
+## Overview
 
 Sometimes, an app that you need may not install or update on your device that is managed by Contoso DeviceManagerPro. This article provides some suggestions on how to troubleshoot this issue and resolve it as quickly as possible.
 
-# Causes
+## Causes
 
 There are several possible causes for app installation or update issues on DeviceManagerPro-managed devices, such as:
 
@@ -17,7 +23,7 @@ There are several possible causes for app installation or update issues on Devic
 -   The device has security or compliance issues.
 -   The app has bugs or errors in its code or configuration.
 
-# Solutions
+## Solutions
 
 To troubleshoot app installation or update issues on DeviceManagerPro-managed devices, you can try the following solutions:
 

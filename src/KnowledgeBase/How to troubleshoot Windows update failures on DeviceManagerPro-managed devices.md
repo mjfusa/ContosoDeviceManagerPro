@@ -1,32 +1,38 @@
-Status Report for Strategy for Updating Employee Devices with Contoso DeviceManagerPro
+<title>
+---
+title: KB103: How to troubleshoot Windows update failures on DeviceManagerPro-managed devices
+---
+</title>
 
-*Copilot Extensibility demo document*
+# KB103: How to troubleshoot Windows update failures on DeviceManagerPro-managed devices
 
-Prepared by Amit Patel on 10/20/2024
+## Overview
 
-# Summary
+Windows updates are essential for keeping your device secure and up to date. However, sometimes updates may fail to install on your device due to various reasons. This article will help you troubleshoot Windows update failures on devices that are managed by Contoso DeviceManagerPro.
 
-This report provides an overview of the progress and status of the project to use Contoso DeviceManagerPro to keep employees' machines up to date, as outlined in the document Strategy for Updating Employee Devices with Contoso DeviceManagerPro. The report covers the objectives, strategy, benefits, challenges, and timeline of the project, as well as the current status and next steps for each phase of the project.
+## Causes of Windows update failures
 
-# Status
+There are several possible causes of Windows update failures, such as:
 
-The following is the current status of the project as of 08/20/2024:
+-   Network issues, such as low bandwidth, proxy settings, or firewall rules.
+-   Device issues, such as low disk space, incompatible drivers, or corrupted system files.
+-   Update issues, such as missing prerequisites, conflicting updates, or corrupted update files.
+-   DeviceManagerPro issues, such as misconfigured policies, incorrect compliance status, or outdated agent.
 
--   Testing phase: Completed. The organization has successfully tested the updaate process for 10 devices, and verified the update settings, schedules, delivery, installation, status, and compliance. No major issues or errors were encountered during the testing phase.
--   Piloting phase: In progress. The organization has started the piloting phase for 100 devices, and is currently evaluating the update performance and impact, collecting feedback, and identifying gaps or challenges. The piloting phase is expected to be completed by the end of Q4 2024.
--   Deploying phase: Not started. The organization has not yet begun the deploying phase for the rest of the device fleet, and is waiting for the completion and evaluation of the piloting phase. The deploying phase is expected to start in Q1 2025, and to be completed by the end of Q2 2025.
--   Evaluating phase: Not started. The organization has not yet started the evaluating phase for the update process, and is waiting for the completion and deployment of the update process for the entire device fleet. The evaluating phase is expected to start in Q3 2025, and to be completed by the end of Q3 2025.
+## Solutions for Windows update failures
 
-# Next Steps
+To resolve Windows update failures on DeviceManagerPro-managed devices, you can try the following solutions:
 
-The following are the next steps for the project:
+-   Check the network connectivity and configuration of the device. Make sure the device can access the Windows Update service and the DeviceManagerPro service without any errors or delays.
+-   Check the device health and performance. Make sure the device has enough disk space, memory, and CPU resources to run the updates. Also, check the device drivers and system files for any errors or corruption.
+-   Check the update history and status of the device. Make sure the device has installed all the required prerequisites and dependencies for the updates. Also, check the update files for any errors or corruption.
+-   Check the DeviceManagerPro policies and compliance of the device. Make sure the device is enrolled and compliant with the DeviceManagerPro policies. Also, check the DeviceManagerPro agent for any errors or updates.
 
--   Complete the piloting phase by the end of Q4 2024, and evaluate the results and feedback.
--   Start the deploying phase in Q1 2025, and segment the devices into different groups, and assign the update rings accordingly.
--   Communicate with the device users and IT staff about the update process, and provide them with guidance and support.
--   Monitor the update status and compliance of each device group, and use the Contoso DeviceManagerPro reporting and analytics features to track the update performance and health.
--   Address any issues or gaps that may arise during the deploying phase, and resolve them as soon as possible.
--   Complete the deploying phase by the end of Q2 2025, and start the evaluating phase in Q3 2025.
--   Review and assess the outcome and effectiveness of the update process, and identify any areas for improvement or optimization.
--   Implement any changes or enhancements to the update process, and ensure the update process is stable and sustainable.
--   Complete the evaluating phase by the end of Q3 2025, and report the final results and feedback.
+## Additional resources
+
+For more information and guidance on how to troubleshoot Windows update failures on DeviceManagerPro-managed devices, you can refer to the following resources:
+
+-   Configure Windows Update for Business in Contoso DeviceManagerPro
+-   Create a Windows 10 update ring in Contoso DeviceManagerPro
+-   Troubleshoot Windows Update for Business in Contoso DeviceManagerPro
+-   Windows Update: FAQ and Troubleshooting

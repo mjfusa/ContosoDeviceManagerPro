@@ -1,4 +1,10 @@
-**Knowledge Base Article: Resolving Device Enrollment Issues in Contoso DeviceManagerPro**
+<title>
+---
+title: KB102: Resolving Device Enrollment Issues in Contoso DeviceManagerPro
+---
+</title>
+
+# KB102: Resolving Device Enrollment Issues in Contoso DeviceManagerPro
 
 **Issue**
 

@@ -2,7 +2,7 @@
         <html>
         <head>
             <meta charset="UTF-8">
-            <title>KB103&colon; How to troubleshoot Windows update failures on DeviceManagerPro-managed devices</title>
+            <title>KB102&colon; Resolving Device Enrollment Issues in Contoso DeviceManagerPro</title>
             <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
@@ -140,36 +140,71 @@
         <body class="vscode-body vscode-light">
             <title>
 ---
-title: KB103: How to troubleshoot Windows update failures on DeviceManagerPro-managed devices
+title: KB102: Resolving Device Enrollment Issues in Contoso DeviceManagerPro
 ---
 </title>
-<h1 id="kb103-how-to-troubleshoot-windows-update-failures-on-devicemanagerpro-managed-devices">KB103: How to troubleshoot Windows update failures on DeviceManagerPro-managed devices</h1>
-<h2 id="overview">Overview</h2>
-<p>Windows updates are essential for keeping your device secure and up to date. However, sometimes updates may fail to install on your device due to various reasons. This article will help you troubleshoot Windows update failures on devices that are managed by Contoso DeviceManagerPro.</p>
-<h2 id="causes-of-windows-update-failures">Causes of Windows update failures</h2>
-<p>There are several possible causes of Windows update failures, such as:</p>
+<h1 id="kb102-resolving-device-enrollment-issues-in-contoso-devicemanagerpro">KB102: Resolving Device Enrollment Issues in Contoso DeviceManagerPro</h1>
+<p><strong>Issue</strong></p>
+<p>Users are unable to enroll their devices in Contoso DeviceManagerPro. They may report seeing error messages or the enrollment process failing to complete.</p>
+<p><strong>Symptoms</strong></p>
 <ul>
-<li>Network issues, such as low bandwidth, proxy settings, or firewall rules.</li>
-<li>Device issues, such as low disk space, incompatible drivers, or corrupted system files.</li>
-<li>Update issues, such as missing prerequisites, conflicting updates, or corrupted update files.</li>
-<li>DeviceManagerPro issues, such as misconfigured policies, incorrect compliance status, or outdated agent.</li>
+<li>Error messages during the enrollment process.</li>
+<li>Devices not appearing in the DeviceManagerPro portal.</li>
+<li>Enrollment process stuck or not progressing.</li>
 </ul>
-<h2 id="solutions-for-windows-update-failures">Solutions for Windows update failures</h2>
-<p>To resolve Windows update failures on DeviceManagerPro-managed devices, you can try the following solutions:</p>
+<p><strong>Resolution Steps</strong></p>
+<ol>
+<li><strong>Verify Device Compatibility</strong>
 <ul>
-<li>Check the network connectivity and configuration of the device. Make sure the device can access the Windows Update service and the DeviceManagerPro service without any errors or delays.</li>
-<li>Check the device health and performance. Make sure the device has enough disk space, memory, and CPU resources to run the updates. Also, check the device drivers and system files for any errors or corruption.</li>
-<li>Check the update history and status of the device. Make sure the device has installed all the required prerequisites and dependencies for the updates. Also, check the update files for any errors or corruption.</li>
-<li>Check the DeviceManagerPro policies and compliance of the device. Make sure the device is enrolled and compliant with the DeviceManagerPro policies. Also, check the DeviceManagerPro agent for any errors or updates.</li>
+<li>Ensure the device meets the minimum requirements for DeviceManagerPro enrollment.</li>
+<li>Check that the operating system version is supported.</li>
 </ul>
-<h2 id="additional-resources">Additional resources</h2>
-<p>For more information and guidance on how to troubleshoot Windows update failures on DeviceManagerPro-managed devices, you can refer to the following resources:</p>
+</li>
+<li><strong>Check Network Connectivity</strong>
 <ul>
-<li>Configure Windows Update for Business in Contoso DeviceManagerPro</li>
-<li>Create a Windows 10 update ring in Contoso DeviceManagerPro</li>
-<li>Troubleshoot Windows Update for Business in Contoso DeviceManagerPro</li>
-<li>Windows Update: FAQ and Troubleshooting</li>
+<li>Ensure the device has a stable internet connection.</li>
+<li>Verify that there are no network restrictions or firewalls blocking access to DeviceManagerPro services.</li>
 </ul>
+</li>
+<li><strong>Review DeviceManagerPro Licensing</strong>
+<ul>
+<li>Confirm that the user has the appropriate DeviceManagerPro license assigned.</li>
+<li>Check that the DeviceManagerPro service is active and not experiencing any outages.</li>
+</ul>
+</li>
+<li><strong>Clear Previous Enrollment</strong>
+<ul>
+<li>If the device was previously enrolled, remove any existing management profiles.</li>
+<li>On Windows devices, use the dsregcmd /leave command to leave the Azure AD domain.</li>
+</ul>
+</li>
+<li><strong>Update Device Software</strong>
+<ul>
+<li>Ensure the device’s operating system and all relevant software are up to date.</li>
+<li>Install any pending updates and restart the device.</li>
+</ul>
+</li>
+<li><strong>Check Enrollment Restrictions</strong>
+<ul>
+<li>Review the enrollment restrictions in the DeviceManagerPro portal.</li>
+<li>Ensure the device type and operating system are not blocked by any policies.</li>
+</ul>
+</li>
+<li><strong>Reset Device</strong>
+<ul>
+<li>As a last resort, consider resetting the device to factory settings.</li>
+<li>Reattempt the enrollment process after the reset.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Additional Resources</strong></p>
+<ul>
+<li>Contoso DeviceManagerPro Troubleshooting Guide</li>
+<li>DeviceManagerPro Enrollment Error Codes</li>
+</ul>
+<p><strong>Contact Support</strong></p>
+<p>If the issue persists, contact your IT support team or Contoso support for further assistance.</p>
+<p>Feel free to customize this article to fit your organization’s specific needs. If you need more detailed steps or have any questions, let me know!</p>
 
             
             
