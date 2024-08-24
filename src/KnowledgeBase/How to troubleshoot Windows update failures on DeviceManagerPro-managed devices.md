@@ -1,10 +1,10 @@
 <title>
 ---
-title: KB103: How to troubleshoot Windows update failures on DeviceManagerPro-managed devices
+title: KB103 - How to troubleshoot Windows update failures on DeviceManagerPro-managed devices
 ---
 </title>
 
-# KB103: How to troubleshoot Windows update failures on DeviceManagerPro-managed devices
+# KB103 - How to troubleshoot Windows update failures on DeviceManagerPro-managed devices
 
 ## Overview
 

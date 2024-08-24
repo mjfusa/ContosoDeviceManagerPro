@@ -1,10 +1,10 @@
 <title>
 ---
-title: KB101: How to troubleshoot app installation or update issues on DeviceManagerPro-managed devices
+title: KB101 - How to troubleshoot app installation or update issues on DeviceManagerPro-managed devices
 ---
 </title>
 
-# KB101: How to troubleshoot app installation or update issues on DeviceManagerPro-managed devices
+# KB101 - How to troubleshoot app installation or update issues on DeviceManagerPro-managed devices
 
 ## Overview
 
